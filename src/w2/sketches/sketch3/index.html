@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>최수빈 W2 Sketch3</title>
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="../../../../style/style.css" />
     <link rel="stylesheet" href="../../../../plugin/prism/prism.css" />
     <script src="../../../../plugin/prism/prism.js" defer></script>
+    <script src="./script/alertPromptConfirm.js"></script>
     <!--<script>
       let username = prompt('너의 이름은?', '홍길동');
       document.getElementById('html-id').textContent =
@@ -28,19 +30,20 @@
       <footer>
         <section>
           <div class="container">
+            <h2>코드</h2>
             <h6>index.html</h6>
             <pre
               class="line-numbers"
-              data-src="./index.html"
+              data-src="./script/alertPromptConfirm.js"
+              data-download-link></pre>
+            <h6>alertPromptConfirm</h6>
+            <pre
+              class="line-numbers"
+              data-src="./script/alertPromptConfirm.js"
               data-download-link></pre>
           </div>
         </section>
       </footer>
     </div>
-    <script>
-      let username = prompt('너의 이름은?', '홍길동');
-      document.getElementById('html-id').textContent =
-        '환영합니다. ' + username + '님.';
-    </script>
   </body>
 </html>
